@@ -24,7 +24,6 @@ const alquilerTypeDefs = gql `
     }
 
     input AlquilerInput {
-        id: String!
         username: String!
         vehiculoId: String!
         fechaInicio: String!
